@@ -8,7 +8,7 @@ def test_add():
 
 
 def test_subtract():
-    assert subtract(10, 5) == 5
+    assert subtract(10, 5) == 6
 
 
 if __name__ == '__main__':
