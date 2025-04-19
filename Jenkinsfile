@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url:'<URL>', branch: 'main'
+                git url:'https://github.com/Arsc4x/jenkins-practice.git', branch: 'master'
             }
         }
         stage('Install') {
